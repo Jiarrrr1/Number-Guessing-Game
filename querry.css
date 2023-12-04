@@ -1,0 +1,89 @@
+@media screen and (max-width: 680px){ 
+    main {
+        flex-direction: column-reverse;
+        padding-top: 15rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .number {
+        padding: 2rem 2;
+    }
+
+    .guess {
+        padding: 1.8rem;
+        width: 20rem;
+    }
+}
+
+@media screen and  (max-width: 560px){ 
+    main {
+        gap: 2rem;
+    }
+    
+    .right {
+        width: 40rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .btn {
+        font-size: 1.5rem;
+    }
+
+    .between {
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 500px){ 
+    .number {
+        font-size: 4rem;
+        padding: 2rem 1.5rem;
+    }
+
+    .right {
+        font-size: 1.5rem;
+    }
+
+    .guess {
+        padding: 1rem;
+    }
+
+    header {
+        width: 53rem;
+    }
+}
+
+@media screen and (max-width: 410px){ 
+    main {
+        width: 60rem;
+        margin: 0 auto;
+        gap: 2rem;
+    }
+
+    h1 {
+        padding-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 320px){ 
+    main {
+        width: 53rem;
+        margin: 0 auto;
+        gap: 2rem;
+    }
+
+    h1 {
+        padding-top: 2rem;
+    }
+}
+
+.error {
+    color: #ff4646;
+}
